@@ -1,0 +1,36 @@
+/* barra de navegcao */
+header{
+    width: 100%;
+    padding: 28px 8%;
+
+}
+
+ #navbar{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+#nav_logo{
+    font-size: 24px;
+    color: orange;
+}
+
+#nav_list{
+    display: flex;
+    list-style: none;
+    gap: 48px;
+
+}
+
+.nav-item a{
+    text-decoration: none;
+    color: purple;
+    font-weight: 600;
+}
+
+.nav-item.active a{
+    color: burlywood;
+    border-bottom: 3px solid aquamarine;
+}
