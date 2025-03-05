@@ -3,7 +3,7 @@ header {
     padding: 28px 8%;
     position: sticky;
     top: 0;
-    background-color: rgba(199, 198, 183, 0.564);
+    background-color: var(--color-primary-1);
     z-index: 3;
 }
 
@@ -16,7 +16,7 @@ header {
 
 #nav_logo {
     font-size: 24px;
-    color: black;
+    color: var(--color-primary-6);
 }
 
 #nav_list {
@@ -32,8 +32,8 @@ header {
 }
 
 .nav-item.active a {
-    color: rgba(255, 166, 0, 0.459);
-    border-bottom: 3px solid orange;
+    color: var(--color-neutral-1);
+    border-bottom: 3px solid var(--color-primary-4);
 }
 
 #mobile_btn {
